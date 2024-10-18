@@ -1,0 +1,120 @@
+.card {
+  padding: 1rem 2rem;
+  background-color: #7674bf;
+  border-radius: 0.7rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  width: 21rem;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #f1cce8;
+}
+
+img {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin: auto;
+  margin-bottom: 0.8rem;
+}
+
+.card__footer__prices-information {
+  margin: 1rem 0;
+  margin-top: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card__header {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.card__header__subtitle {
+  align-self: center;
+  justify-self: end;
+}
+
+.card__footer__prices-information__updated-date {
+  justify-self: end;
+}
+
+.card__header__title {
+  font-size: 2rem;
+}
+
+.button-31 {
+  background-color: #f1cce8;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #7674bf;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 1rem;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: 0.75;
+}
+
+.layout__body {
+  max-width: 1536px;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.cards-collection {
+  margin-bottom: 4rem;
+}
+
+.cards-collection__header {
+  padding: 2rem;
+}
+
+.cards-collection__header__title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 1rem;
+  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #7674bf;
+}
+
+.cards-collection__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 2rem;
+  justify-content: center;
+}
