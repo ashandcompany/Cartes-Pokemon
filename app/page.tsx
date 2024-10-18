@@ -1,40 +1,20 @@
 import PokemonCarte from "@/components/PokemonCard/pokemonCarte";
-import "@/components/PokemonCard/PokemonCard.css";
+import { TABLEAU } from "@/constants/tableauPokemon";
 
 const Home = () => {
-  const pokemonCartes = [
-    {
-      name: "Pikachu",
-      hp: 40,
-      date: new Date(2024, 9, 18),
-      prix: 1001,
-    },
-    {
-      name: "Bulbasaur",
-      hp: 40,
-      date: new Date(2024, 9, 18),
-      prix: 7,
-    },
-    {
-      name: "Charizard",
-      hp: 120,
-      date: new Date(2024, 9, 18),
-      prix: 2039,
-    },
-  ];
 
   return (
-    <main className="layout">
-      <section className="layout__body">
-        <div className="cards-collection">
-          <div className="cards-collection__header">
-            <h2 className="cards-collection__header__title">
+    <main className="flex flex-col w-full">
+      <section className="max-w-screen-2xl mx-auto py-4 w-full">
+        <div className="mb-16">
+          <div className="p-8">
+            <h2 className="text-5xl text-center mb-3 uppercase font-bold tracking-[1.5rem] text-blue-500">
               Cards collection
             </h2>
           </div>
 
-          <div className="cards-collection__body">
-            {pokemonCartes.map((carte, index) => (
+          <div className="flex flex-wrap gap-4 justify-center px-8">
+            {TABLEAU.map((carte, index) => (
               <PokemonCarte
                 key={index}
                 name={carte.name}
