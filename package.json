@@ -2,6 +2,7 @@
   "name": "mon-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ashandcompany.github.io/Cartes-Pokemon/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
